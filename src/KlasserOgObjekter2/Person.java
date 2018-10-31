@@ -58,9 +58,10 @@ public class Person {
 
         String innFornavn = showInputDialog("Skriv inn navnet");
         String innEtternavn = showInputDialog("Skriv inn etternavnet");
+        String innTelefonNr = showInputDialog("Skriv inn telefonNr");
         String innAdresse = showInputDialog("Skriv inn adressen");
 
-        String innTelefonNr = showInputDialog("Skriv inn telefonNr");
+
         int telefonNr = Integer.parseInt(innTelefonNr);
 
         Person p1 = new Person(innFornavn, innEtternavn, innAdresse, telefonNr);
